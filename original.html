@@ -1,0 +1,2329 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<title>경기콘텐츠진흥원</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="경기콘텐츠진흥원" />
+	<meta name="copyright" content="경기콘텐츠진흥원" />
+	<meta property="og:title" content="경기콘텐츠진흥원" />
+	<meta property="og:description" content="경기콘텐츠진흥원" />
+	<meta name="author" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<meta name="naver-site-verification" content="98380cf2bbf15d37edcbcbe5419b93858418e8e7" />
+	<link rel="shortcut icon" href="/resources/images/gcn/cilogo.png" type="image/x-icon" />
+	<link rel="apple-touch-icon-precomposed" href="/resources/images/gcn/favicon1.png" />
+	<link rel="stylesheet" href="/resources/css/gcn/general.css" />
+	<link rel="stylesheet" href="/resources/css/gcn/layout.css" />
+	<link rel="stylesheet" href="/resources/css/gcn/main.css" />
+	<link rel="stylesheet" href="/resources/css/gcn/main2.css" />
+	<link rel="stylesheet" href="/resources/css/gcn/webfonts.css" />
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+	<script src="/resources/js/common.ccis.js"></script>
+	<script src="/resources/js/jquery-2.2.4.min.js"></script>
+	<script src="/resources/js/gcn/common.js"></script>
+	<script src="/resources/js/gcn/main.js"></script>
+	<script src="/resources/js/gcn/jquery-plani.tab.js"></script>
+	<script src="/resources/js/gcn/plax.js"></script>
+	<script src="/resources/js/jquery.bxslider.min.js"></script>
+	<script type="text/javascript">
+		var gContextPath = "";
+		// 개인정보재동의, 비밀번호변경기간만료, 임시비밀번호 로그인 시 처리
+		$(function() {
+			// 팝업창
+			var nPopupWindowCnt = 0;
+			if (nPopupWindowCnt > 0) {
+				$(".layerPop_bg").show();
+			}
+			$(document).on('click', '.btnPopupWinodwChk', function() {
+				var strPopupId = $(this).attr("popupId");
+				$("#layerPop" + strPopupId).hide();
+				setCookie("mainPopupId" + strPopupId, "done", 1);
+				nPopupWindowCnt = nPopupWindowCnt - 1;
+				if (nPopupWindowCnt == 0) {
+					$(".layerPop_bg").hide();
+				}
+			});
+			$(document).on('click', '.btnPopupWinodwClose', function() {
+				var strPopupId = $(this).attr("popupId");
+				$("#layerPop" + strPopupId).hide();
+				nPopupWindowCnt = nPopupWindowCnt - 1;
+				if (nPopupWindowCnt == 0) {
+					$(".layerPop_bg").hide();
+				}
+			});
+			// --팝업창
+		});
+	</script>
+</head>
+<body class="start">
+	<!-- 팝업창 -->
+	<div class="layerPop_bg"></div>
+	<a id="uppermost" href="#contents" class="skip-to">본문 바로가기</a>
+	<div id="wrap">
+		<!-- ghub -->
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-24873123-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+			gtag('config', 'UA-24873123-1');
+		</script>
+		<header id="header">
+			<div class="branch-site">
+				<div class="container">
+					<a href="/gcn" class="active"><i class="xi-home-o"></i>경기콘텐츠진흥원</a>
+					<a class="shffle1" href="http://gcon.or.kr/ghub">ICT융합 콘텐츠 창업 허브</a>
+					<a class="shffle2" href="http://gnext.or.kr/">게임 지원 센터</a>
+					<a class="shffle3" href="https://www.gconlab.or.kr/">콘텐츠 창작 사업화 공간</a>
+					<a class="shffle4" href="http://export.gcon.or.kr/bms">비즈니스 매칭</a>
+					<a class="shffle5" href="http://www.ggfc.or.kr/">영상영화산업 지원</a>
+					<div class="language-site">
+						<a href="#" class="title">Language <i class="xi-caret-down-min"></i></a>
+						<ul class="con">
+							<li><a href="http://english.gg.go.kr/gyeonggi-content-agency/" target="_blank" title="새창으로열림">English</a></li>
+							<li><a href="http://chinese.gg.go.kr/chinese/gyeonggi-content-agency/" target="_blank" title="새창으로열림">Chinese</a></li>
+							<li><a href="http://japanese.gg.go.kr/japanese/gyeonggi-content-agency/" target="_blank" title="새창으로열림">Japanese</a></li>
+							<li><a href="http://vietnamese.gg.go.kr/vietnamese/gyeonggi-content-agency/" target="_blank" title="새창으로열림">Vietnamese</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<h1 class="logo"><a href="/gcn"></a></h1>
+			<div class="util">
+				<a href="/gcn/member/loginForm?menuId=MENU02197" class="login"><i class="xi-unlock-o"></i><span>로그인</span></a>
+				<a href="/gcn/member/confirmP?menuId=MENU02199" class="join"><i class="xi-user-o"></i><span>회원가입</span></a>
+				<!-- 20181026 조직도 추가 -->
+				<a href="/board?menuId=MENU02174" class="org"><i class="xi-sitemap"></i><span>조직도</span></a>
+				<!-- //20181026 조직도 추가 -->
+			</div>
+			<nav class="nav">
+				<div class="container">
+					<a href="#" class="all-menu"><i class="xi-bars"></i></a>
+					<div class="sitemap">
+						<div class="container">
+							<ul class="sitemap-list">
+								<!-- 메뉴셋팅 -->
+								<li><strong class="title">주요사업</strong>
+									<ul class="depth2">
+										<li>
+											<a href="/menu?menuId=MENU02097">경기문화창조허브</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02105">부천 클러스터 육성 사업</a></li>
+												<li><a href="/menu?menuId=MENU02106">판교 경기문화창조허브 운영</a></li>
+												<li><a href="/menu?menuId=MENU02107">광교 경기문화창조허브 운영</a></li>
+												<li><a href="/menu?menuId=MENU02108">북부 경기문화창조허브 운영</a></li>
+												<li><a href="/menu?menuId=MENU02109">서부 경기문화창조허브 운영</a></li>
+												<li><a href="/menu?menuId=MENU02302">고양 경기문화창조허브 운영</a></li>
+												<li><a href="/menu?menuId=MENU02110">경기 콘텐츠코리아 랩</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02098">게임산업</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02111">2019 PlayX4(플레이엑스포)</a></li>
+												<li><a href="/menu?menuId=MENU02112">e-스포츠 산업육성</a></li>
+												<li><a href="/menu?menuId=MENU02113">경기글로벌게임센터</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02099">음악산업</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02114">인디스땅스(INDIESTANCE)</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02100">영상산업</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02116">경기 로케이션 촬영 지원</a></li>
+												<li><a href="/menu?menuId=MENU02214">경기도 다양성영화 제작투자지원</a></li>
+												<li><a href="/menu?menuId=MENU02218">경기 시나리오 기획개발지원</a></li>
+												<li><a href="/menu?menuId=MENU02117">경기 로케이션 인센티브 지원</a></li>
+												<li><a href="/menu?menuId=MENU02308">경기도 다양성영화 국제영화제 참가지원</a></li>
+												<li><a href="/menu?menuId=MENU02309">경기 다양성영화 육성</a></li>
+												<li><a href="/menu?menuId=MENU02120">찾아가는 영화관</a></li>
+												<li><a href="/menu?menuId=MENU02119">우수영상물 외국어자막 상영지원</a></li>
+												<li><a href="/menu?menuId=MENU02118">경기필름스쿨페스티벌(GFSF)</a></li>
+												<li><a href="/menu?menuId=MENU02219">경기도 1인 크리에이터 육성사업</a></li>
+												<li><a href="/menu?menuId=MENU02310">지역 미디어센터 운영지원</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02236">출판산업</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02115">경기도 책 생태계 활성화 사업</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02104">경기도 동네서점 상품권</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02131">동네서점 상품권안내</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02101">빅데이터산업</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02124">지속가능한 빅데이터 분석서비스 제공</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02102">전문인력양성</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02126">콘텐츠 전문 인력양성</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02103">자금지원</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02128">경기도 콘텐츠기업 보증 지원제도</a></li>
+												<li><a href="/menu?menuId=MENU02129">넥시드(NEXEED) : NEXT + SEED</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02233">수출지원</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02234">국내외마켓 참가지원</a></li>
+												<li><a href="/menu?menuId=MENU02235">수출상담회 개최</a></li>
+												<li><a href="/menu?menuId=MENU02237">역량/기반강화 사업</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><strong class="title">시설이용</strong>
+									<ul class="depth2">
+										<li>
+											<a href="/menu?menuId=MENU02133">프로그램</a>
+											<ul class="depth3">
+												<li><a href="/gcn/program?menuId=MENU02136">부천 클러스터</a></li>
+												<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schText=">판교 경기문화창조허브</a></li>
+												<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schText=">광교 경기문화창조허브</a></li>
+												<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schText=">북부 경기문화창조허브</a></li>
+												<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schText=">서부 경기문화창조허브</a></li>
+												<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schText=">고양 경기문화창조허브</a></li>
+												<li><a href="https://www.gconlab.or.kr/program-reg/" target="_blank" title="새창으로 열림">경기 콘텐츠코리아 랩</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02134">공간</a>
+											<ul class="depth3">
+												<li><a href="/gcn/space?menuId=MENU02139">부천 클러스터</a></li>
+												<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schSpaceClass=&amp;schText=">판교 경기문화창조허브</a></li>
+												<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=02&amp;schSpaceClass=&amp;schText=">광교 경기문화창조허브</a></li>
+												<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schSpaceClass=&amp;schText=">북부 경기문화창조허브</a></li>
+												<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schSpaceClass=&amp;schText=">서부 경기문화창조허브</a></li>
+												<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schSpaceClass=&amp;schText=">고양 경기문화창조허브</a></li>
+												<li><a href="https://www.gconlab.or.kr/room-main/" target="_blank" title="새창으로 열림">경기 콘텐츠코리아 랩</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02135">장비</a>
+											<ul class="depth3">
+												<li><a href="/gcn/equip?menuId=MENU02142">부천 클러스터</a></li>
+												<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schEquipClass=&amp;schText=">판교 경기문화창조허브</a></li>
+												<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=02&amp;schEquipClass=&amp;schText=">광교 경기문화창조허브</a></li>
+												<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schEquipClass=&amp;schText=">북부 경기문화창조허브</a></li>
+												<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schEquipClass=&amp;schText=">서부 경기문화창조허브</a></li>
+												<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schEquipClass=&amp;schText=">고양 경기문화창조허브</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><strong class="title">뉴스룸</strong>
+									<ul class="depth2">
+										<li>
+											<a href="/menu?menuId=MENU02144">프레스센터</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02146">오피니언</a></li>
+												<li><a href="/menu?menuId=MENU02147">보도자료</a></li>
+												<li><a href="/menu?menuId=MENU02148">자료실</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02145">소통</a>
+											<ul class="depth3">
+												<li><a href="/gcn/newsRoom/youtube?menuId=MENU02149">유튜브</a></li>
+												<li><a href="/menu?menuId=MENU02150">뉴스레터</a></li>
+												<li><a href="/menu?menuId=MENU02151">BLOG</a></li>
+												<li><a href="/gcn/newsRoom/facebook?menuId=MENU02152">FACEBOOK</a></li>
+												<li><a href="/gcn/newsRoom/instagram?menuId=MENU02153">Your Story</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><strong class="title">알림마당</strong>
+									<ul class="depth2">
+										<li>
+											<a href="/menu?menuId=MENU02154">공지사항</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02155">사업공고</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02156">입찰공고</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02256">결과발표</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02157">월별 행사 캘린더</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02158">교육 및 행사</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02159">타기관 공고</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02160">정책리포트</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><strong class="title">GCA소개</strong>
+									<ul class="depth2">
+										<li>
+											<a href="/menu?menuId=MENU02161">인사말</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02170">이사장인사말</a></li>
+												<li><a href="/menu?menuId=MENU02171">원장인사말</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02162">일반현황</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02172">미션/비전/전략</a></li>
+												<li><a href="/menu?menuId=MENU02173">연혁</a></li>
+												<li><a href="/menu?menuId=MENU02174">조직도 및 연락처</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02163">채용정보</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02175">채용정보</a></li>
+												<li><a href="/menu?menuId=MENU02176">채용공고</a></li>
+												<li><a href="/menu?menuId=MENU02177">지원서작성 및 수정</a></li>
+												<li><a href="/menu?menuId=MENU02178">FAQ</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02164">경영공시</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02286">경영공시 개요</a></li>
+												<li><a href="/menu?menuId=MENU02179">경영목표 및 예산사업계획</a></li>
+												<li><a href="/menu?menuId=MENU02180">임원 및 운영인력 현황</a></li>
+												<li><a href="/menu?menuId=MENU02181">예산</a></li>
+												<li><a href="/menu?menuId=MENU02182">결산</a></li>
+												<li><a href="/menu?menuId=MENU02183">인건비 예산 및 집행현황</a></li>
+												<li><a href="/menu?menuId=MENU02184">시책추진 업무 추진비</a></li>
+												<li><a href="/menu?menuId=MENU02185">기관운영 업무 추진비</a></li>
+												<li><a href="/menu?menuId=MENU02186">수의계약내용</a></li>
+												<li><a href="/menu?menuId=MENU02187">경영실적평가 결과</a></li>
+												<li><a href="/menu?menuId=MENU02188">감사 결과 및 이행결과</a></li>
+												<li><a href="/menu?menuId=MENU02189">성과계약 달성정도</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02165">윤리경영</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02190">윤리경영소개</a></li>
+												<li><a href="/gcn/compl?menuId=MENU02191">클린신고 센터</a></li>
+												<li><a href="/menu?menuId=MENU02192">반부패 청렴자료</a></li>
+												<li><a href="/menu?menuId=MENU02285">비위면직자 취업제한 제도</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02166">고객만족경영</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02193">고객만족경영소개</a></li>
+												<li><a href="/gcn/compl?menuId=MENU02194">고객의 소리</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02167">행정정보공개</a>
+											<ul class="depth3">
+												<li><a href="/menu?menuId=MENU02195">정보공개청구</a></li>
+												<li><a href="/menu?menuId=MENU02196">법률고문 현황</a></li>
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02168">기부금</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02253">CI/BI</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+										<li>
+											<a href="/menu?menuId=MENU02169">오시는길</a>
+											<ul class="depth3">
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="close"><i class="xi-close"></i> <span class="sr-only">닫기</span></a>
+					</div>
+					<ul id="gnb" class="gnb">
+						<!-- 메뉴셋팅 -->
+						<li id="topNaviCom_MENU02091" class="depth1 ">
+							<a href="/menu?menuId=MENU02091" id="MENU02091">주요사업</a>
+							<ul class="depth2">
+								<li>
+									<a href="/menu?menuId=MENU02097">경기문화창조허브</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02105">부천 클러스터 육성 사업</a></li>
+										<li><a href="/menu?menuId=MENU02106">판교 경기문화창조허브 운영</a></li>
+										<li><a href="/menu?menuId=MENU02107">광교 경기문화창조허브 운영</a></li>
+										<li><a href="/menu?menuId=MENU02108">북부 경기문화창조허브 운영</a></li>
+										<li><a href="/menu?menuId=MENU02109">서부 경기문화창조허브 운영</a></li>
+										<li><a href="/menu?menuId=MENU02302">고양 경기문화창조허브 운영</a></li>
+										<li><a href="/menu?menuId=MENU02110">경기 콘텐츠코리아 랩</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02098">게임산업</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02111">2019 PlayX4(플레이엑스포)</a></li>
+										<li><a href="/menu?menuId=MENU02112">e-스포츠 산업육성</a></li>
+										<li><a href="/menu?menuId=MENU02113">경기글로벌게임센터</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02099">음악산업</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02114">인디스땅스(INDIESTANCE)</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02100">영상산업</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02116">경기 로케이션 촬영 지원</a></li>
+										<li><a href="/menu?menuId=MENU02214">경기도 다양성영화 제작투자지원</a></li>
+										<li><a href="/menu?menuId=MENU02218">경기 시나리오 기획개발지원</a></li>
+										<li><a href="/menu?menuId=MENU02117">경기 로케이션 인센티브 지원</a></li>
+										<li><a href="/menu?menuId=MENU02308">경기도 다양성영화 국제영화제 참가지원</a></li>
+										<li><a href="/menu?menuId=MENU02309">경기 다양성영화 육성</a></li>
+										<li><a href="/menu?menuId=MENU02120">찾아가는 영화관</a></li>
+										<li><a href="/menu?menuId=MENU02119">우수영상물 외국어자막 상영지원</a></li>
+										<li><a href="/menu?menuId=MENU02118">경기필름스쿨페스티벌(GFSF)</a></li>
+										<li><a href="/menu?menuId=MENU02219">경기도 1인 크리에이터 육성사업</a></li>
+										<li><a href="/menu?menuId=MENU02310">지역 미디어센터 운영지원</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02236">출판산업</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02115">경기도 책 생태계 활성화 사업</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02104">경기도 동네서점 상품권</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02131">동네서점 상품권안내</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02101">빅데이터산업</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02124">지속가능한 빅데이터 분석서비스 제공</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02102">전문인력양성</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02126">콘텐츠 전문 인력양성</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02103">자금지원</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02128">경기도 콘텐츠기업 보증 지원제도</a></li>
+										<li><a href="/menu?menuId=MENU02129">넥시드(NEXEED) : NEXT + SEED</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02233">수출지원</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02234">국내외마켓 참가지원</a></li>
+										<li><a href="/menu?menuId=MENU02235">수출상담회 개최</a></li>
+										<li><a href="/menu?menuId=MENU02237">역량/기반강화 사업</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li id="topNaviCom_MENU02092" class="depth1 ">
+							<a href="/menu?menuId=MENU02092" id="MENU02092">시설이용</a>
+							<ul class="depth2">
+								<li>
+									<a href="/menu?menuId=MENU02133">프로그램</a>
+									<ul class="depth3">
+										<li><a href="/gcn/program?menuId=MENU02136">부천 클러스터</a></li>
+										<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schText=">판교 경기문화창조허브</a></li>
+										<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schText=">광교 경기문화창조허브</a></li>
+										<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schText=">북부 경기문화창조허브</a></li>
+										<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schText=">서부 경기문화창조허브</a></li>
+										<li><a href="/ghub/program?menuId=MENU01970&amp;pageNum=1&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schText=">고양 경기문화창조허브</a></li>
+										<li><a href="https://www.gconlab.or.kr/program-reg/" target="_blank" title="새창으로 열림">경기 콘텐츠코리아 랩</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02134">공간</a>
+									<ul class="depth3">
+										<li><a href="/gcn/space?menuId=MENU02139">부천 클러스터</a></li>
+										<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schSpaceClass=&amp;schText=">판교 경기문화창조허브</a></li>
+										<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=02&amp;schSpaceClass=&amp;schText=">광교 경기문화창조허브</a></li>
+										<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schSpaceClass=&amp;schText=">북부 경기문화창조허브</a></li>
+										<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schSpaceClass=&amp;schText=">서부 경기문화창조허브</a></li>
+										<li><a href="/ghub/space?menuId=MENU01971&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schSpaceClass=&amp;schText=">고양 경기문화창조허브</a></li>
+										<li><a href="https://www.gconlab.or.kr/room-main/" target="_blank" title="새창으로 열림">경기 콘텐츠코리아 랩</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02135">장비</a>
+									<ul class="depth3">
+										<li><a href="/gcn/equip?menuId=MENU02142">부천 클러스터</a></li>
+										<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=01&amp;schEquipClass=&amp;schText=">판교 경기문화창조허브</a></li>
+										<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=02&amp;schEquipClass=&amp;schText=">광교 경기문화창조허브</a></li>
+										<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=03&amp;schEquipClass=&amp;schText=">북부 경기문화창조허브</a></li>
+										<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=04&amp;schEquipClass=&amp;schText=">서부 경기문화창조허브</a></li>
+										<li><a href="/ghub/equip?menuId=MENU01972&amp;listType=01&amp;rowCnt=8&amp;schHub=06&amp;schEquipClass=&amp;schText=">고양 경기문화창조허브</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li id="topNaviCom_MENU02093" class="depth1 ">
+							<a href="/gcn/newsRoom/index?menuId=MENU02093" id="MENU02093">뉴스룸</a>
+							<ul class="depth2">
+								<li>
+									<a href="/menu?menuId=MENU02144">프레스센터</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02146">오피니언</a></li>
+										<li><a href="/menu?menuId=MENU02147">보도자료</a></li>
+										<li><a href="/menu?menuId=MENU02148">자료실</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02145">소통</a>
+									<ul class="depth3">
+										<li><a href="/gcn/newsRoom/youtube?menuId=MENU02149">유튜브</a></li>
+										<li><a href="/menu?menuId=MENU02150">뉴스레터</a></li>
+										<li><a href="/menu?menuId=MENU02151">BLOG</a></li>
+										<li><a href="/gcn/newsRoom/facebook?menuId=MENU02152">FACEBOOK</a></li>
+										<li><a href="/gcn/newsRoom/instagram?menuId=MENU02153">Your Story</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li id="topNaviCom_MENU02094" class="depth1 ">
+							<a href="/menu?menuId=MENU02094" id="MENU02094">알림마당</a>
+							<ul class="depth2">
+								<li>
+									<a href="/menu?menuId=MENU02154">공지사항</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02155">사업공고</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02156">입찰공고</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02256">결과발표</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02157">월별 행사 캘린더</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02158">교육 및 행사</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02159">타기관 공고</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02160">정책리포트</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li id="topNaviCom_MENU02095" class="depth1 ">
+							<a href="/board?menuId=MENU02170" id="MENU02095">GCA소개</a>
+							<ul class="depth2">
+								<li>
+									<a href="/menu?menuId=MENU02161">인사말</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02170">이사장인사말</a></li>
+										<li><a href="/menu?menuId=MENU02171">원장인사말</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02162">일반현황</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02172">미션/비전/전략</a></li>
+										<li><a href="/menu?menuId=MENU02173">연혁</a></li>
+										<li><a href="/menu?menuId=MENU02174">조직도 및 연락처</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02163">채용정보</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02175">채용정보</a></li>
+										<li><a href="/menu?menuId=MENU02176">채용공고</a></li>
+										<li><a href="/menu?menuId=MENU02177">지원서작성 및 수정</a></li>
+										<li><a href="/menu?menuId=MENU02178">FAQ</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02164">경영공시</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02286">경영공시 개요</a></li>
+										<li><a href="/menu?menuId=MENU02179">경영목표 및 예산사업계획</a></li>
+										<li><a href="/menu?menuId=MENU02180">임원 및 운영인력 현황</a></li>
+										<li><a href="/menu?menuId=MENU02181">예산</a></li>
+										<li><a href="/menu?menuId=MENU02182">결산</a></li>
+										<li><a href="/menu?menuId=MENU02183">인건비 예산 및 집행현황</a></li>
+										<li><a href="/menu?menuId=MENU02184">시책추진 업무 추진비</a></li>
+										<li><a href="/menu?menuId=MENU02185">기관운영 업무 추진비</a></li>
+										<li><a href="/menu?menuId=MENU02186">수의계약내용</a></li>
+										<li><a href="/menu?menuId=MENU02187">경영실적평가 결과</a></li>
+										<li><a href="/menu?menuId=MENU02188">감사 결과 및 이행결과</a></li>
+										<li><a href="/menu?menuId=MENU02189">성과계약 달성정도</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02165">윤리경영</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02190">윤리경영소개</a></li>
+										<li><a href="/gcn/compl?menuId=MENU02191">클린신고 센터</a></li>
+										<li><a href="/menu?menuId=MENU02192">반부패 청렴자료</a></li>
+										<li><a href="/menu?menuId=MENU02285">비위면직자 취업제한 제도</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02166">고객만족경영</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02193">고객만족경영소개</a></li>
+										<li><a href="/gcn/compl?menuId=MENU02194">고객의 소리</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02167">행정정보공개</a>
+									<ul class="depth3">
+										<li><a href="/menu?menuId=MENU02195">정보공개청구</a></li>
+										<li><a href="/menu?menuId=MENU02196">법률고문 현황</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02168">기부금</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02253">CI/BI</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+								<li>
+									<a href="/menu?menuId=MENU02169">오시는길</a>
+									<ul class="depth3">
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<div class="mobile-gnb">
+						<ul class="lang">
+							<li><a href="https://english.gg.go.kr/" target="_blank" title="새창으로열림">English</a></li>
+							<li><a href="http://chinese.gg.go.kr/chinese/gyeonggi-content-agency/" target="_blank" title="새창으로열림">Chinese</a></li>
+							<li><a href="https://japanese.gg.go.kr/" target="_blank" title="새창으로열림">Japanese</a></li>
+							<li><a href="https://vietnamese.gg.go.kr/" target="_blank" title="새창으로열림">Vietnamese</a></li>
+						</ul>
+						<div class="util">
+							<a href="/gcn/member/loginForm?menuId=MENU02197" class="login"><i class="xi-unlock-o"></i><span>로그인</span></a>
+							<a href="/gcn/member/confirmP?menuId=MENU02199" class="join"><i class="xi-user-o"></i><span>회원가입</span></a>
+						</div>
+						<script>
+							document.write("<ul id='gnb' class='gnb'>" + $("#gnb").html() + "</ul>");
+						</script>
+					</div>
+					<a href="#" class="total-search"><i class="xi-search"></i><span class="sr-only">검색창열기</span></a>
+					<article class="total-search-layer">
+						<div class="container-dimm">
+							<div class="container">
+								<form id="unifiedSearchForm" name="unifiedSearchForm" class="total_search" action="/gcn/search/result" method="POST">
+									<input type="hidden" name="query" value="" />
+									<input type="hidden" name="gubun" value="" />
+									<input type="hidden" name="siteId" value="SITE00004" />
+									<label for="totalSearchInput" class="sr-only"></label>
+									<input type="text" placeholder="검색어를 입력해주세요" id="search_keyword" name="search_keyword" value="" />
+									<button onclick="javascript:gfnSearch(&#39;all&#39;); return false;"><i class="xi-search"></i><span class="sr-only">SEARCH</span></button>
+									<span class="btn-close"><a href="#"><i class="xi-close"></i></a></span>
+									<!-- <div class="keyword">
+								<strong class="ex">ex</strong>
+								<a href="#">지원사업</a>
+								<a href="#">경기콘텐츠진흥원</a>
+								<a href="#">창업지원사업</a>
+								<a href="#">콘텐츠사업</a>
+							</div> -->
+								</form>
+							</div>
+						</div>
+					</article>
+					<a href="#" class="all-menu-close"><i class="xi-close"></i><span class="sr-only">전체메뉴닫기</span></a>
+				</div>
+			</nav>
+		</header>
+		<main id="contents">
+			<!-- ghub -->
+			<div id="visual">
+				<ul class="visual-slide">
+					<li class="visual1 type0">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>1</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual0.png" alt="" /></span>
+									<span class="effect">
+										<span class="box1"><img src="/resources/images/gcn/main/visual0_effect1.png" alt="" /></span>
+										<span class="box2"><img src="/resources/images/gcn/main/visual0_effect2.png" alt="" /></span>
+										<span class="box3"><img src="/resources/images/gcn/main/visual0_effect3.png" alt="" /></span>
+									</span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>G-HUB</strong><br />경기도 콘텐츠<br /> <em>창업·스타트업</em> 지원센터</p>
+								<span class="txt">경기문화창조허브는 융·복합 콘텐츠 분야의<br /> 창업과 스타트업의 성장을 위한 인프라와 프로그램을 지원합니다.</span>
+								<a href="/menu?menuId=MENU02097">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type1">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>2</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual1.png" alt="" /></span>
+									<span class="effect">
+										<img src="/resources/images/gcn/main/visual1_effect.png" alt="" />
+										<span class="box1"><img src="/resources/images/gcn/main/visual1_effect1.png" alt="" /></span>
+										<span class="box2"><img src="/resources/images/gcn/main/visual1_effect2.png" alt="" /></span>
+									</span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title">
+									<strong>GAME</strong><br />
+									경기도 게임산업의 내일,<br /> <em>게임</em>은 경기도!
+								</p>
+								<span class="txt">경기도 게임산업의 내일,<br /> 경기글로벌게임센터가 열어갑니다.</span>
+								<a href="/menu?menuId=MENU02098">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type0">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>3</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual3.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>MUSIC</strong><br />대한민국 <em>음악산업</em>의<br /> 중심 경기도</p>
+								<span class="txt">경기도 음악산업 육성사업을 통해 우수 뮤지션들의 도내 활동 입지 강화 및 음악 콘텐츠를 통한 지역 상권 활성화를 도모하고 있습니다.</span>
+								<a href="/menu?menuId=MENU02099">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type4-2">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>4</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual4-2.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>BOOK</strong><br />책을 만나는 접점 확대를<br /> 통해 책 생태계 활성화 </p>
+								<span class="txt">경기도 책 생태계 활성화 사업을 통해 지역출판과 동네서점 활성화를 위한 다양한 프로젝트를 추진하고 있습니다.</span>
+								<a href="/menu?menuId=MENU02236">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type8">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>5</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual8.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>BOOK VOUCHER</strong><br />경기도 <em>동네서점</em>을<br /> 응원합니다</p>
+								<span class="txt">대형, 온라인 서점이 아닌 동네서점에서만 쓸 수 있는 상품권으로 경기도 동네서점을 응원하기 위해 만들었습니다.</span>
+								<a href="/menu?menuId=MENU02104">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type4">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>6</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual4.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>VIDEO</strong><br />차세대 영상산업의<br /> 중심</p>
+								<span class="txt">영상물 촬영 및 제작지원부터 MCN분야 1인 크리에이터 육성까지<br /> 경기영상위원회, 경기도 1인 크리에이터 사업이 함께합니다.</span>
+								<a href="/menu?menuId=MENU02100">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual2 type2">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>7</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual2.png" alt="" /></span>
+									<span class="effect">
+										<img src="/resources/images/gcn/main/visual2_effect.png" alt="" />
+										<span class="ball1" data-xrange="20" data-yrange="20"><img src="/resources/images/gcn/main/visual2_ball1.png" alt="" /></span>
+										<span class="ball2" data-xrange="5" data-yrange="5"><img src="/resources/images/gcn/main/visual2_ball2.png" alt="" /></span>
+										<span class="ball3" data-xrange="40" data-yrange="40"><img src="/resources/images/gcn/main/visual2_ball3.png" alt="" /></span>
+										<span class="ball4" data-xrange="10" data-yrange="50"><img src="/resources/images/gcn/main/visual2_ball4.png" alt="" /></span>
+										<span class="ball5" data-xrange="30" data-yrange="30"><img src="/resources/images/gcn/main/visual2_ball5.png" alt="" /></span>
+										<span class="ball6" data-xrange="20" data-yrange="20"><img src="/resources/images/gcn/main/visual2_ball6.png" alt="" /></span>
+									</span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>BIG DATA</strong><br /><em>빅데이터</em>를 통한<br /> 경기도 산업 활성화</p>
+								<span class="txt">빅데이터 분석 및 활용문화 확산, 전문인력 양성, 창업기업 지원</span>
+								<a href="/menu?menuId=MENU02101">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type6">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>8</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual6.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>EXPERT</strong><br />경기도 콘텐츠, 빅데이터<br /> 전문가 육성의 산실</p>
+								<span class="txt">창의적 인재의 콘텐츠산업 유입기반 및 저변확대를 위해 관내 특성화고 대상으로 콘텐츠산업 현장 중심의 맞춤형 교육 지원 사업</span>
+								<a href="/menu?menuId=MENU02102">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type7">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>0</span><span>9</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual7.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>FUNDING</strong><br />스타트업과 투자자의<br /> <em>Node Point!</em></p>
+								<span class="txt">넥시드 투자지원센터에서 스타트업 지원코자 출자펀드를 통한 간접투자와 투자유치 프로그램을 운영하고 있습니다.</span>
+								<a href="/menu?menuId=MENU02103">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type7-2">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>1</span><span>0</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual7-2.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>EXPORT</strong><br />경기도 중소 콘텐츠 기업의 해외시장 진출지원</p>
+								<span class="txt">국내외 캐릭터 마켓 참가, 수출상담회 개최, 해외진출 역량/기반 강화사업으로 경기도 콘텐츠기업의 해외시장 진출을 지원합니다.</span>
+								<a href="/menu?menuId=MENU02233">사업소개 바로가기</a>
+							</div>
+						</div>
+					</li>
+					<li class="visual1 type9">
+						<div class="container">
+							<div class="spot">
+								<p>
+									<span class="txt">
+										<span>G</span><span>C</span><span>A</span><br />
+										<span>B</span><span>U</span><span>S</span><span>I</span><span>N</span><span>E</span><span>S</span><span>S</span><br />
+										<span>#</span><span>1</span><span>1</span>
+									</span>
+									<span class="img"><img src="/resources/images/gcn/main/visual9.png" alt="" /></span>
+								</p>
+							</div>
+							<div class="desc">
+								<p class="title"><strong>G-START</strong><br />경기도 콘텐츠<br /> 스타트업 성장 패키지<br /> 프로그램</p>
+								<span class="txt">예비 창업부터 해외진출까지 스타트업의 성장단계에 맞춰 집중 지원합니다</span>
+								<a href="https://www.gcon.or.kr/board?menuId=MENU02026&amp;siteId=null" target="_blank" title="새 창">사업소개 바로가기 <i class="xi-external-link"></i></a>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="pager-controls">
+					<div id="pager-list">
+						<ul class="arr-slider">
+							<!-- <li><strong>12 <small>FESTIVAL</small></strong><span>경기크리에이터즈데이</span></li> -->
+							<li class="active"><strong>01 <small>G-HUB</small></strong><span>경기문화창조허브</span></li>
+							<li><strong>02 <small>GAME</small></strong><span>게임산업</span></li>
+							<li><strong>03 <small>MUSIC</small></strong><span>음악산업</span></li>
+							<li><strong>04 <small>BOOK</small></strong><span>출판산업</span></li>
+							<li><strong>05 <small>BOOK VOUCHER</small></strong><span>경기도 동네서점 상품권</span></li>
+							<li><strong>06 <small>VIDEO</small></strong><span>영상산업</span></li>
+							<li><strong>07 <small>BIG DATA</small></strong><span>빅데이터산업</span></li>
+							<li><strong>08 <small>EXPERT</small></strong><span>전문인력양성</span></li>
+							<li><strong>09 <small>FUNDING</small></strong><span>자금지원</span></li>
+							<li><strong>10 <small>EXPORT</small></strong><span>수출지원</span></li>
+							<li><strong>11 <small>G-START</small></strong><span>G-START 프로그램</span></li>
+						</ul>
+					</div>
+				</div>
+				<div class="bxslider-controls">
+					<a class="bx-prev" href="#"><i class="xi-angle-left-min"></i><span class="sr-only">PREV</span></a>
+					<a class="bx-next" href="#"><i class="xi-angle-right-min"></i><span class="sr-only">NEXT</span></a>
+				</div>
+			</div>
+			<div id="m-visual">
+				<ul class="m-visual-slide">
+					<li><img src="resources/images/gcn/main/m_visual1.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual2.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual3.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual4.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual5.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual6.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual7.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual8.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual9.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual10.jpg" alt="" /></li>
+					<li><img src="resources/images/gcn/main/m_visual11.jpg" alt="" /></li>
+				</ul>
+			</div>
+			<section id="floor1" class="scene1">
+				<div class="container">
+					<article class="news">
+						<h2 class="title bullet"><em>NEWS</em> ROOM</h2>
+						<article class="group active">
+							<h3><a href="">전체</a></h3>
+							<div class="item">
+								<ul class="card">
+									<li>
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8829&amp;menuId=MENU02147&amp;userFileName=(사진1) 매직아레나구성도.jpg&amp;systemFileName=1559176391362.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag"></span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8817">[5.30] 경기도 VR/AR 유망기업 ㈜리얼리티매직, 차세대 VR/AR 게임스테이지 ‘매직 아레나’ 최초 공개</a>
+												<span class="date">2019.05.30</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8827&amp;menuId=MENU02147&amp;userFileName=(사진1)_밍글콘mou조인.JPG&amp;systemFileName=1559096951778.JPG" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag"></span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8815">[5.28] 경기글로벌게임센터 지원기업, (주)밍글콘, 인도네시아 마켓 진출 기대</a>
+												<span class="date">2019.05.29</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8811&amp;menuId=MENU02147&amp;userFileName=(포스터) 스타트업 실무교육 참가자 모집 포스터.jpg&amp;systemFileName=1558917385499.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag"></span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8799">[5.27] 서부 경기문화창조허브, 상반기 스타트업 실무교육 참가자 모집</a>
+												<span class="date">2019.05.27</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8810&amp;menuId=MENU02147&amp;userFileName=(포스터)_NRP밋업 포스터.jpg&amp;systemFileName=1558917286006.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag"></span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8798">[5.24] 경기콘텐츠진흥원, 캐나다 BC주 등 국내외 파트너 기업 간 글로벌 기업 교류회 ‘NRP 밋업(Meetup)’ 개최</a>
+												<span class="date">2019.05.27</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<script>
+													$.ajax({
+														url: "/board/fileListJson",
+														async: false,
+														cache: false,
+														data: {
+															linkId: "8774",
+															menuId: "MENU02147"
+														},
+														success: function(result, textStatus, jqXHR) {
+															if (result != null) {
+																$.each(result, function(i, item) {
+																	strFileName = item.USERFILENAME;
+																	strFileExt = item.FILEEXTENSION;
+																	if (strFileExt == "JPG" || strFileExt == "jpg" || strFileExt == "JPEG" || strFileExt == "jpeg" || strFileExt == "PNG" || strFileExt == "png" || strFileExt == "GIF" || strFileExt == "gif" || strFileExt == "BMP" || strFileExt == "bmp") {
+																		document.write("<img src='/fileDownload?fileGubun=board&menuId=MENU02147&userFileName=" + item.USERFILENAME + "&systemFileName=" + item.SYSTEMFILENAME + "'>");
+																		return false;
+																	}
+																});
+															}
+														}
+													});
+												</script>
+											</div>
+											<figcaption>
+												<span class="tag"></span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8774">[5.23] 아이디어를 현실로 만드는 창작자들의 놀이터, &#39;북부 경기문화창조허브&#39;</a>
+												<span class="date">2019.05.23</span>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<a href="#" class="more"><i class="xi-plus"></i> <span class="sr-only">더보기</span></a>
+							</div>
+						</article>
+						<article class="group">
+							<h3><a href="/menu?menuId=MENU02146">오피니언</a></h3>
+							<div class="item">
+								<ul class="card">
+									<li>
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8739&amp;menuId=MENU02146&amp;userFileName=김경표 이사장.jpg&amp;systemFileName=1557810709138.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">오피니언</span>
+												<a href="/board/view?menuId=MENU02146&amp;linkId=8727">[경기인터뷰] 김경표 경기콘텐츠진흥원 이사장</a>
+												<span class="date">2019.05.14</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8738&amp;menuId=MENU02146&amp;userFileName=오창희 경기콘텐츠진흥원장.jpg&amp;systemFileName=1557810367961.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">오피니언</span>
+												<a href="/board/view?menuId=MENU02146&amp;linkId=8726">[월요논단] 경기도 게임, 내일은 맑음</a>
+												<span class="date">2019.05.14</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8737&amp;menuId=MENU02146&amp;userFileName=김경표 이사장.jpg&amp;systemFileName=1557809254970.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">오피니언</span>
+												<a href="/board/view?menuId=MENU02146&amp;linkId=8725">[데스크가 만났습니다]김경표 경기콘텐츠진흥원 이사장 &quot;누구나 콘텐츠 창작...공정한 창의 생태계 조성&quot;</a>
+												<span class="date">2019.05.14</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8615&amp;menuId=MENU02146&amp;userFileName=김경표 이사장 인터뷰.jpg&amp;systemFileName=1555653050067.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">오피니언</span>
+												<a href="/board/view?menuId=MENU02146&amp;linkId=8603">[인터뷰] 김경표 신임 이사장, 대한민국 콘텐츠 메카 道… 지역마다 개성 맞춰 지원</a>
+												<span class="date">2019.04.19</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8551&amp;menuId=MENU02146&amp;userFileName=오창희 경기콘텐츠진흥원 원장.jpg&amp;systemFileName=1554281682400.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">오피니언</span>
+												<a href="/board/view?menuId=MENU02146&amp;linkId=8539">100년 역사 한국 영화의 비약, 경기 있기에 가능했다.</a>
+												<span class="date">2019.04.03</span>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<a href="/menu?menuId=MENU02146" class="more"><i class="xi-plus"></i> <span class="sr-only">더보기</span></a>
+							</div>
+						</article>
+						<article class="group">
+							<h3><a href="/menu?menuId=MENU02147">보도자료</a></h3>
+							<div class="item">
+								<ul class="card">
+									<li>
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8829&amp;menuId=MENU02147&amp;userFileName=(사진1) 매직아레나구성도.jpg&amp;systemFileName=1559176391362.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">보도자료</span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8817">[5.30] 경기도 VR/AR 유망기업 ㈜리얼리티매직, 차세대 VR/AR 게임스테이지 ‘매직 아레나’ 최초 공개</a>
+												<span class="date">2019.05.30</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8827&amp;menuId=MENU02147&amp;userFileName=(사진1)_밍글콘mou조인.JPG&amp;systemFileName=1559096951778.JPG" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">보도자료</span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8815">[5.28] 경기글로벌게임센터 지원기업, (주)밍글콘, 인도네시아 마켓 진출 기대</a>
+												<span class="date">2019.05.29</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8811&amp;menuId=MENU02147&amp;userFileName=(포스터) 스타트업 실무교육 참가자 모집 포스터.jpg&amp;systemFileName=1558917385499.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">보도자료</span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8799">[5.27] 서부 경기문화창조허브, 상반기 스타트업 실무교육 참가자 모집</a>
+												<span class="date">2019.05.27</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8810&amp;menuId=MENU02147&amp;userFileName=(포스터)_NRP밋업 포스터.jpg&amp;systemFileName=1558917286006.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">보도자료</span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8798">[5.24] 경기콘텐츠진흥원, 캐나다 BC주 등 국내외 파트너 기업 간 글로벌 기업 교류회 ‘NRP 밋업(Meetup)’ 개최</a>
+												<span class="date">2019.05.27</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<script>
+													$.ajax({
+														url: "/board/fileListJson",
+														async: false,
+														cache: false,
+														data: {
+															linkId: "8774",
+															menuId: "MENU02147"
+														},
+														success: function(result, textStatus, jqXHR) {
+															if (result != null) {
+																$.each(result, function(i, item) {
+																	strFileName = item.USERFILENAME;
+																	strFileExt = item.FILEEXTENSION;
+																	if (strFileExt == "JPG" || strFileExt == "jpg" || strFileExt == "JPEG" || strFileExt == "jpeg" || strFileExt == "PNG" || strFileExt == "png" || strFileExt == "GIF" || strFileExt == "gif" || strFileExt == "BMP" || strFileExt == "bmp") {
+																		document.write("<img src='/fileDownload?fileGubun=board&menuId=MENU02147&userFileName=" + item.USERFILENAME + "&systemFileName=" + item.SYSTEMFILENAME + "'>");
+																		return false;
+																	}
+																});
+															}
+														}
+													});
+												</script>
+											</div>
+											<figcaption>
+												<span class="tag">보도자료</span>
+												<a href="/board/view?menuId=MENU02147&amp;linkId=8774">[5.23] 아이디어를 현실로 만드는 창작자들의 놀이터, &#39;북부 경기문화창조허브&#39;</a>
+												<span class="date">2019.05.23</span>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<a href="/menu?menuId=MENU02147" class="more"><i class="xi-plus"></i> <span class="sr-only">더보기</span></a>
+							</div>
+						</article>
+						<article class="group">
+							<h3><a href="/menu?menuId=MENU02148">자료실</a></h3>
+							<div class="item">
+								<ul class="card">
+									<li>
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8268&amp;menuId=MENU02148&amp;userFileName=경기도-심볼만.jpg&amp;systemFileName=1546920448203.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">자료실</span>
+												<a href="/board/view?menuId=MENU02148&amp;linkId=8256">경기도 GI 및 적용 가이드 입니다.</a>
+												<span class="date">2019.01.08</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8267&amp;menuId=MENU02148&amp;userFileName=ci대표이미지.png&amp;systemFileName=1546920269322.png" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">자료실</span>
+												<a href="/board/view?menuId=MENU02148&amp;linkId=8255">경기콘텐츠 진흥원 새로운 CI를 배포합니다.</a>
+												<span class="date">2019.01.08</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8266&amp;menuId=MENU02148&amp;userFileName=2019 홍보영상 섬네일.png&amp;systemFileName=1546919008460.png" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">자료실</span>
+												<a href="/board/view?menuId=MENU02148&amp;linkId=8254">2019 경기콘텐츠진흥원 홍보영상</a>
+												<span class="date">2019.01.08</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=8249&amp;menuId=MENU02148&amp;userFileName=2018 홍보영상 섬네일.png&amp;systemFileName=1546919431069.png" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">자료실</span>
+												<a href="/board/view?menuId=MENU02148&amp;linkId=8237">2018 경기콘텐츠진흥원 홍보영상</a>
+												<span class="date">2018.12.31</span>
+											</figcaption>
+										</figure>
+									</li>
+									<li class="add-img">
+										<figure class="box border">
+											<div class="photo">
+												<img src="/fileDownload?titleId=7877&amp;menuId=MENU02148&amp;userFileName=경기콘텐츠진흥원 (2).jpg&amp;systemFileName=1540353321460.jpg" alt="" />
+											</div>
+											<figcaption>
+												<span class="tag">자료실</span>
+												<a href="/board/view?menuId=MENU02148&amp;linkId=7865">2018 경기콘텐츠진흥원 소개 브로슈어</a>
+												<span class="date">2018.10.24</span>
+											</figcaption>
+										</figure>
+									</li>
+								</ul>
+								<a href="/menu?menuId=MENU02148" class="more"><i class="xi-plus"></i> <span class="sr-only">더보기</span></a>
+							</div>
+						</article>
+					</article>
+				</div>
+			</section>
+			<section id="floor2" class="scene2">
+				<div class="container">
+					<div class="brief">
+						<ul>
+							<li class="active">
+								<a href="#none">전체</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8827">
+											<p class="tag"></p>
+											<span class="date"><strong>31</strong>2019.05</span>
+											<p class="txt">2019 북부 경기문화창조허브 홍보콘텐츠 제작 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8813">
+											<p class="tag"></p>
+											<span class="date"><strong>28</strong>2019.05</span>
+											<p class="txt">부천 메이커스페이스 공간입주 지원 기업 모집 공고</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8807">
+											<p class="tag"></p>
+											<span class="date"><strong>28</strong>2019.05</span>
+											<p class="txt">2019년 메이커스 창업생태계 조성 및 투자유치 지원 사업 공고</p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8804">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019 새로운경기게임오디션 선정작 대상 후속지원 사업 1차 지원 신청 접수 공고</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8802">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019 경기도 1인 크리에이터 아카데미 -입문반 4기 최종 합격자 발표-</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8801">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019년 뉴미디어(뉴스레터 및 SNS) 활용 홍보운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8800">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">뉴미디어 국제컨퍼런스 2019 운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8796">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 디자인프로젝트 솔루션 랩 참가 학생 모집</p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8785">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 경기공방학교 운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8784">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 경기문화창조허브 유튜브 채널 콘텐츠 기획제작 및 활성화 입찰 공고</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">공지사항</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8708">
+											<p class="tag"></p>
+											<span class="date"><strong>09</strong>2019.05</span>
+											<p class="txt">2019년 4월 수의계약 내역공개</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8535">
+											<p class="tag"></p>
+											<span class="date"><strong>02</strong>2019.04</span>
+											<p class="txt">2019년 3월 수의계약 내역공개</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8423">
+											<p class="tag"></p>
+											<span class="date"><strong>11</strong>2019.03</span>
+											<p class="txt">공시송달공고문[부정당업자입찰참가자격제한통보서]</p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8419">
+											<p class="tag"></p>
+											<span class="date"><strong>08</strong>2019.03</span>
+											<p class="txt">2019년 2월 수의계약 내역공개</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8418">
+											<p class="tag"></p>
+											<span class="date"><strong>08</strong>2019.03</span>
+											<p class="txt">2019년 상반기 발주계획 공개</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8377">
+											<p class="tag"></p>
+											<span class="date"><strong>22</strong>2019.02</span>
+											<p class="txt">공공분야 갑질 근절을 위한 가이드라인</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8325">
+											<p class="tag"></p>
+											<span class="date"><strong>31</strong>2019.01</span>
+											<p class="txt">2019 경기콘텐츠진흥원 사업설명회 자료집</p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8322">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.01</span>
+											<p class="txt">공시송달공고문[부정당업자입찰참가자격제한처분통지]</p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8208">
+											<p class="tag"></p>
+											<span class="date"><strong>19</strong>2018.12</span>
+											<p class="txt">2018년 제2차 경기글로벌게임센터 신규 입주기업 발표심사 대상사 공지</p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02154&amp;linkId=8112">
+											<p class="tag"></p>
+											<span class="date"><strong>04</strong>2018.12</span>
+											<p class="txt">2018 경기도 올해의 책 선정결과</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">결과발표</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8467">
+											<p class="tag"></p>
+											<span class="date"><strong>19</strong>2019.03</span>
+											<p class="txt">[북부] 2019 북부 경기문화창조허브 가상오피스 연장심사 결과 공고</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8825">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.05</span>
+											<p class="txt">2019 경기 콘텐츠코리아 랩 홍보마케팅 운영 우선협상대상공고</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8824">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.05</span>
+											<p class="txt">2019 MDC 창업 패키지 지원사업 운영 우선협상대상공고</p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8823">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.05</span>
+											<p class="txt">2019년 경기 콘텐츠코리아랩 랩 네트워킹 운영 우선협상대상공고</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8822">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.05</span>
+											<p class="txt">VRAR 어워드 지원사업 운영 우선협상대상공고</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8821">
+											<p class="tag"></p>
+											<span class="date"><strong>30</strong>2019.05</span>
+											<p class="txt">2019 국내 유통마케팅 지원 운영 우선협상대상공고</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8816">
+											<p class="tag"></p>
+											<span class="date"><strong>29</strong>2019.05</span>
+											<p class="txt">2019 인디스땅스 오디션 프로그램 위탁 우선협상대상자 공고</p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8814">
+											<p class="tag"></p>
+											<span class="date"><strong>29</strong>2019.05</span>
+											<p class="txt">2019년 2차 경기도 다양성영화 국제영화제 참가지원 심사 결과발표</p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8806">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">경기 해외진출 IP-법률컨설팅 위탁 우선협상대상자 공고</p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8803">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019년 경기 시나리오 기획개발지원 사업 지원작 선정 결과공고</p>
+										</a>
+									</li>
+									<li class="eq10">
+										<a href="/board/view?menuId=MENU02256&amp;linkId=8794">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">[변경] 「2019년 게임기업 재도전 지원」 G-Continue Program(재도전 지원) 발표심사 결과</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">사업공고</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8813">
+											<p class="tag"></p>
+											<span class="date"><strong>28</strong>2019.05</span>
+											<p class="txt">부천 메이커스페이스 공간입주 지원 기업 모집 공고</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8807">
+											<p class="tag"></p>
+											<span class="date"><strong>28</strong>2019.05</span>
+											<p class="txt">2019년 메이커스 창업생태계 조성 및 투자유치 지원 사업 공고</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8804">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019 새로운경기게임오디션 선정작 대상 후속지원 사업 1차 지원 신청 접수 공고</p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8796">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 디자인프로젝트 솔루션 랩 참가 학생 모집</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8779">
+											<p class="tag"></p>
+											<span class="date"><strong>23</strong>2019.05</span>
+											<p class="txt">2019년 제1차 부천클러스터 입주기업 모집공고</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8767">
+											<p class="tag"></p>
+											<span class="date"><strong>22</strong>2019.05</span>
+											<p class="txt">2019년 경기인디시네마 배급지원 모집 공고(상반기)</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8762">
+											<p class="tag"></p>
+											<span class="date"><strong>22</strong>2019.05</span>
+											<p class="txt">2019 MDC 창업패키지 프로젝트 지원 사업 모집공고 </p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8755">
+											<p class="tag"></p>
+											<span class="date"><strong>20</strong>2019.05</span>
+											<p class="txt">2019년 광교경기문화창조허브 가상오피스 입주자 모집</p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8751">
+											<p class="tag"></p>
+											<span class="date"><strong>17</strong>2019.05</span>
+											<p class="txt">어드밴스드 스타트업 프로그램 모집 공고 </p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02155&amp;linkId=8737">
+											<p class="tag"></p>
+											<span class="date"><strong>16</strong>2019.05</span>
+											<p class="txt">2019 디자인프로젝트 솔루션 랩 참가 기업 모집</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">입찰공고</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8827">
+											<p class="tag"></p>
+											<span class="date"><strong>31</strong>2019.05</span>
+											<p class="txt">2019 북부 경기문화창조허브 홍보콘텐츠 제작 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8801">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019년 뉴미디어(뉴스레터 및 SNS) 활용 홍보운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8800">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">뉴미디어 국제컨퍼런스 2019 운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8785">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 경기공방학교 운영 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8784">
+											<p class="tag"></p>
+											<span class="date"><strong>24</strong>2019.05</span>
+											<p class="txt">2019 경기문화창조허브 유튜브 채널 콘텐츠 기획제작 및 활성화 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8769">
+											<p class="tag"></p>
+											<span class="date"><strong>23</strong>2019.05</span>
+											<p class="txt">경기콘텐츠진흥원 홈페이지 2차 통합 및 유지보수 사업 입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8756">
+											<p class="tag"></p>
+											<span class="date"><strong>21</strong>2019.05</span>
+											<p class="txt">2019년 진흥원 정보보호시스템 통합 유지보수 소액수의견적 공고</p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8754">
+											<p class="tag"></p>
+											<span class="date"><strong>20</strong>2019.05</span>
+											<p class="txt">2019년 새로운경기게임오디션, 경기게임아카데미 후속지원 프로그램 총괄 운영 재입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8732">
+											<p class="tag"></p>
+											<span class="date"><strong>16</strong>2019.05</span>
+											<p class="txt">2019 해외진출 번역 지원 사업 운영 재입찰 공고</p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02156&amp;linkId=8720">
+											<p class="tag"></p>
+											<span class="date"><strong>13</strong>2019.05</span>
+											<p class="txt">2019 MDC 창업프로젝트 패키지 지원사업 운영 입찰 공고</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#none">교육 및 행사</a>
+								<ul class="brief-list">
+									<li class="eq0">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8802">
+											<p class="tag"></p>
+											<span class="date"><strong>27</strong>2019.05</span>
+											<p class="txt">2019 경기도 1인 크리에이터 아카데미 -입문반 4기 최종 합격자 발표-</p>
+										</a>
+									</li>
+									<li class="eq1">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8768">
+											<p class="tag"></p>
+											<span class="date"><strong>22</strong>2019.05</span>
+											<p class="txt">2019 VR/AR 아카데미 입문과정 교육생 모집</p>
+										</a>
+									</li>
+									<li class="eq2">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8766">
+											<p class="tag"></p>
+											<span class="date"><strong>22</strong>2019.05</span>
+											<p class="txt">경기도 1인 크리에이터 아카데미 서류심사 합격자 공지 - 입문반 4기 - </p>
+										</a>
+									</li>
+									<li class="eq3">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8745">
+											<p class="tag"></p>
+											<span class="date"><strong>16</strong>2019.05</span>
+											<p class="txt">[서부] 경기-START B 스타트업 실무교육</p>
+										</a>
+									</li>
+									<li class="eq4">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8744">
+											<p class="tag"></p>
+											<span class="date"><strong>16</strong>2019.05</span>
+											<p class="txt">2019 문화창업플래너 교육 참가자 모집(5.17~6.5)</p>
+										</a>
+									</li>
+									<li class="eq5">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8740">
+											<p class="tag"></p>
+											<span class="date"><strong>16</strong>2019.05</span>
+											<p class="txt">[서부] 청소년 대상, 4차산업 메이커스 교육 참가자 모집</p>
+										</a>
+									</li>
+									<li class="eq6">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8703">
+											<p class="tag"></p>
+											<span class="date"><strong>08</strong>2019.05</span>
+											<p class="txt"> 2019 경기도 1인 크리에이터 아카데미 전문가 강연 및 세미나(게임 수익화/뷰티&amp;패션 수익화)모집 공고 </p>
+										</a>
+									</li>
+									<li class="eq7">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8688">
+											<p class="tag"></p>
+											<span class="date"><strong>07</strong>2019.05</span>
+											<p class="txt">2019 경기도 1인 크리에이터 아카데미 입문 4기 모집 공고 </p>
+										</a>
+									</li>
+									<li class="eq8">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8662">
+											<p class="tag"></p>
+											<span class="date"><strong>29</strong>2019.04</span>
+											<p class="txt">경기도 1인 크리에이터 아카데미 최종 합격자 공지 - 입문반 1~3기 - </p>
+										</a>
+									</li>
+									<li class="eq9">
+										<a href="/board/view?menuId=MENU02158&amp;linkId=8651">
+											<p class="tag"></p>
+											<span class="date"><strong>26</strong>2019.04</span>
+											<p class="txt">[4.30, 판교] 게임제작사 창업부터 10년의 경험담 (김강석 크래프톤 前 대표)</p>
+										</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="popup-zone">
+						<ul class="popup-list">
+							<li>
+								<a href="http://gg.saramin.co.kr/" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=2019년 상반기 통합채용 공고(정규직).jpg&amp;systemFileName=1558075638302.jpg" alt="2019년 경기콘텐츠진흥원 상반기 공개채용" />
+								</a>
+							</li>
+							<li>
+								<a href="https://www.gcon.or.kr/board/view?pageNum=1&amp;rowCnt=10&amp;linkId=8744&amp;menuId=MENU02158&amp;schType=0&amp;schText=&amp;boardStyle=&amp;categoryId=&amp;continent=&amp;country=" target="_parent">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=문화창업플래너_진흥원-배너_650x264_3.png&amp;systemFileName=1558078063799.png" alt="문화창업플래너 6기 교육생 모집 공고입니다" />
+								</a>
+							</li>
+							<li>
+								<a href="https://www.gcon.or.kr/board/view?pageNum=1&amp;rowCnt=10&amp;linkId=8735&amp;menuId=MENU02155&amp;schType=0&amp;schText=&amp;boardStyle=&amp;categoryId=&amp;continent=&amp;country=" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=진흥원 배너_유통 및 판로개척.jpg&amp;systemFileName=1558482295586.jpg" alt="메이커스 유통 및 국내외 판로개척 지원사업 참가기업을 모집합니다! " />
+								</a>
+							</li>
+							<li>
+								<a href="https://survey.gg.go.kr/app/social/guide.do" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=650x264 하단배너.jpg&amp;systemFileName=1558942324548.jpg" alt="2019년 상반기 경기도 온라인 여론조사 패널모집" />
+								</a>
+							</li>
+							<li>
+								<a href="/board?menuId=MENU02131&amp;siteId=null" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=bn04.jpg&amp;systemFileName=1536664925800.jpg" alt="경기도 동네서점 상품권 발행" />
+								</a>
+							</li>
+							<li>
+								<a href="/board/view?menuId=MENU02155&amp;linkId=5460" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=2018-09-17 15;40;53.PNG&amp;systemFileName=1537166482167.PNG" alt="특례보증 지원제도" />
+								</a>
+							</li>
+							<li>
+								<a href="https://export.gcon.or.kr/bms/" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=bn02.jpg&amp;systemFileName=1536665164468.jpg" alt="콘텐츠 수출지원시스템" />
+								</a>
+							</li>
+							<li>
+								<a href="http://hotline.gg.go.kr" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=(사이즈수정)(홈페이지용)배너이미지_650 262.jpg&amp;systemFileName=1547009975479.jpg" alt="공익제보 핫라인" />
+								</a>
+							</li>
+							<li>
+								<a href="https://www.epeople.go.kr/jsp/user/pc/cvreq/UPcPassCvreqForm.paid?flag=P" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=소극행정신고_팝업존03.png&amp;systemFileName=1553220964421.png" alt="소극행정 신고센터 개설 알림" />
+								</a>
+							</li>
+							<li>
+								<a href="https://www.mois.go.kr/html/taegeukgi/0606.html" target="_blank" title="새창으로 열림">
+									<img src="/fileDownload?fileGubun=common&amp;menuId=popupZoneMgr&amp;userFileName=01.jpg&amp;systemFileName=1558941328432.jpg" alt="현충일 나라사랑 태극기 달기" />
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="box">
+						<a href="/menu?menuId=MENU02160">
+							<strong>정책이슈리포트</strong>
+							주요 정책이슈를 한눈에...
+						</a>
+						<img src="/resources/images/gcn/main/bg_box1.jpg" alt="" class="bg" />
+					</div>
+					<div class="box">
+						<a href="/menu?menuId=MENU02158">
+							<strong>교육 및 행사</strong>
+							교육 및 행사를 확인하세요.
+						</a>
+						<img src="/resources/images/gcn/main/bg_box2.jpg" alt="" class="bg" />
+					</div>
+				</div>
+			</section>
+			<section id="floor3" class="scene3">
+				<div class="container">
+					<article class="calendar-area type3">
+						<div class="row">
+							<div class="cal-title">
+								<div class="month"><span>2018.06</span></div>
+							</div>
+							<div class="cal-list">
+								<ul class="list"></ul>
+							</div>
+							<a href="#" class="arr next">다음</a>
+							<a href="#" class="arr prev">이전</a>
+						</div>
+						<div class="message">
+							<ul class="slide-list"></ul>
+						</div>
+					</article>
+				</div>
+			</section>
+			<section id="floor4" class="scene4">
+				<div class="container">
+					<div class="section">
+						<ul>
+							<li>
+								<div class="box">
+									<a href="/menu?menuId=MENU02175">
+										<strong class="title">채용정보</strong>
+										<p class="desc">콘텐츠 산업의 미래를 이끌어갈<br /> 인재를 모집합니다.</p>
+										<span>바로가기</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="box">
+									<a href="javascript:alert(&#39;준비중입니다.&#39;);">
+										<strong class="title">평가위원신청</strong>
+										<p class="desc">전문가회원으로 등록하시면<br /> 평가위원으로 참여하실 수 있습니다.</p>
+										<span>바로가기</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="box">
+									<a href="/menu?menuId=MENU02194">
+										<strong class="title">고객의소리</strong>
+										<p class="desc">경기콘텐츠진흥원의 새로운<br /> 소식을 받아 보세요.</p>
+										<span>바로가기</span>
+									</a>
+								</div>
+							</li>
+							<li>
+								<div class="box">
+									<a href="#">
+										<strong class="title">지원시설</strong>
+										<p class="desc">경기콘텐츠진흥원의 새로운<br /> 소식을 받아 보세요.</p>
+										<span>바로가기</span>
+									</a>
+								</div>
+							</li>
+						</ul>
+						<div class="box link">
+							<strong class="title"><span>고객의<br /> 소리 -</span></strong>
+							<a href="/menu?menuId=MENU02194">고객의소리</a>
+							<a href="/menu?menuId=MENU02195">정보공개청구</a>
+							<a href="/menu?menuId=MENU02191">클린신고센터</a>
+						</div>
+						<article class="micro-site">
+							<h2>microsite</h2>
+							<ul class="microSite-list">
+								<li><a target="_blank" title="새 창" href="http://nrpclub.com/"><img src="/resources/images/gcn/main/img_micro4.jpg" class="img-responsive" alt="" /></a></li>
+							</ul>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section id="floor5" class="scene5">
+				<div class="container">
+					<h2 class="title">GCA <em>PR MOVIE</em> <small>경기콘텐츠 진흥원의 홍보영상을 확인하세요!</small></h2>
+					<div class="video-wrap">
+						<ul class="video-list">
+						</ul>
+						<div id="thumb-list">
+						</div>
+						<script>
+							$.ajax({
+								type: "GET",
+								url: "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=UUZNg5CV7KV4oIgLGP04TSdg&key=AIzaSyAJtRRhX0aPqOTlUDFXIo05DNg78TF1Fp0&maxResults=6&callback=?",
+								async: false,
+								cache: false,
+								dataType: "json",
+								success: function(data, textStatus, jqXHR) {
+									var pageInfo = data.pageInfo;
+									// var totalResults = pageInfo.totalResults;
+									nextPageToken = data.nextPageToken;
+									prevPageToken = data.prevPageToken;
+									var list = data.items;
+									var html;
+									$.each(list, function(key) {
+										var videoInfo = list[key].snippet;
+										var videoId = videoInfo.resourceId.videoId;
+										var date = videoInfo.publishedAt;
+										date = date.substring(0, 10).replace(/-/gi, ".");
+										var title = videoInfo.title;
+										// var description = videoInfo.description;
+										// var thumbnails = videoInfo.thumbnails.medium.url;
+										html = "<li><iframe frameborder='0' src='//www.youtube.com/embed/" + videoId + "?fs=1&controls=2&autoplay=0' webkitallowFullScreen mozallowFullScreen allowFullScreen></iframe><div class='playpause'><img src='http://img.youtube.com/vi/" + videoId + "/1.jpg' class='youtubeImg'></div></li>";
+										$(".video-list").append(html);
+										html = "<a data-slide-index='" + key + "' href=''><figure><img src='http://img.youtube.com/vi/" + videoId + "/0.jpg' alt=''/><figcaption>" + title + "</figcaption></figure></a>";
+										$("#thumb-list").append(html);
+									});
+									//비디오
+									$('.video-list').bxSlider({
+										pagerCustom: '#thumb-list',
+										controls: false,
+										infiniteLoop: false
+									});
+								},
+								error: function(request, status, error) {
+									console.log("code : " + request.status);
+									console.log("message : " + request.responseText);
+									console.log("error : " + error);
+								}
+							});
+						</script>
+					</div>
+					<a href="/gcn/newsRoom/youtube?menuId=MENU02149" class="more"><i class="xi-plus"></i> <span class="sr-only">더보기</span></a>
+					<ul class="sns-list">
+						<li><a href="/gcn/newsRoom/facebook?menuId=MENU02152"><span><i class="xi-facebook"></i></span>FACEBOOK</a></li>
+						<li><a href="/board?menuId=MENU02151"><span><i class="xi-blogger"></i></span>BLOG</a></li>
+						<li><a href="/gcn/newsRoom/youtube?menuId=MENU02149"><span><i class="xi-youtube"></i></span>YOUTUBE</a></li>
+						<li><a href="/gcn/newsRoom/instagram?menuId=MENU02153"><span><i class="xi-instagram"></i></span>YOUR STORY</a></li>
+					</ul>
+				</div>
+			</section>
+			<section id="floor6" class="scene6">
+				<div class="container">
+					<ul class="banner-list">
+						<li>
+							<a href="https://www.gg.go.kr/" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper1.gif&amp;systemFileName=1536897806153.gif" alt="세계속의경기도" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.ggfc.or.kr/" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper6.gif&amp;systemFileName=1536897845760.gif" alt="경기영상위원회" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.bucheon.go.kr/" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper2.gif&amp;systemFileName=1536897859807.gif" alt="부천시" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.kocca.kr/" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper5.gif&amp;systemFileName=1536897871246.gif" alt="kocca" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.mcst.go.kr" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper3.gif&amp;systemFileName=1536897884388.gif" alt="문화체육관광부" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.ggc.go.kr" target="_blank" title="새창으로 열림">
+								<img src="/fileDownload?fileGubun=common&amp;menuId=bannerMgr&amp;userFileName=img_cooper4.gif&amp;systemFileName=1536897895084.gif" alt="경기도의회" />
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<a href="#" class="go-top active" style=""><i class="xi-angle-up"></i><span class="sr-only">페이지 맨위로 이동</span></a>
+			<script type="text/javascript">
+				//Date 선언
+				var date = new Date();
+				var year = date.getFullYear();
+				//달 구하기
+				var month = date.getMonth() + 1;
+				//일 구하기
+				var day = date.getDate();
+				$(function() {
+					fnCalEventDay(year, month);
+					fnEventList(year + "" + padDigit(month) + "" + padDigit(day), 'd' + day);
+					/* $(".container .message ul").bxSlider({
+						auto: true,
+						autoControls: false,
+						stopAutoOnClick: true,
+						mode : 'vertical',
+						controls : false,
+						pager: false
+					}); */
+				});
+				function fnCalEventDay(pYear, pMonth) {
+					var nextYear = ""
+					var prevYear = ""
+					var prevMonth = ""
+					var prevMonth = ""
+					if (pMonth <= 1) {
+						nextYear = pYear;
+						nextMonth = pMonth + 1;
+						prevYear = pYear - 1;
+						prevMonth = 12;
+					} else if (pMonth >= 12) {
+						nextYear = pYear + 1;
+						nextMonth = 1;
+						prevYear = pYear;
+						prevMonth = pMonth - 1;
+					} else {
+						nextYear = pYear;
+						nextMonth = pMonth + 1;
+						prevYear = pYear;
+						prevMonth = pMonth - 1;
+					}
+					//일수구하기
+					var days = 32 - new Date(pYear, pMonth - 1, 32).getDate();
+					var html = "";
+					for (var i = 1; i <= days; i++) {
+						var date = pYear + "" + padDigit(pMonth) + "" + padDigit(i);
+						/* if(year == pYear && month == pMonth && day == i) html += '<li><a href="javascript:fnEventList(\''+date+'\', \'d'+i+'\');" class="today" id="d'+i+'"><p class="date">'+i+'</p></a></li>';
+						else html += '<li><a href="javascript:fnEventList(\''+date+'\', \'d'+i+'\');" id="d'+i+'"><p class="date">'+i+'</p></a></li>'; */
+						html += '<li><a href="javascript:fnEventList(\'' + date + '\', \'d' + i + '\');" id="d' + i + '"><p class="date">' + i + '</p></a></li>';
+					}
+					$(".calendar-area").find('.cal-list').children('.list').empty();
+					$(".calendar-area").find('.cal-title').children('.month').children('span').text(pYear + "." + padDigit(pMonth));
+					$(".calendar-area").find('.cal-list').children('.list').html(html);
+					$(".calendar-area").find('.next').attr('href', 'javascript:fnCalEventDay(' + prevYear + ', ' + prevMonth + ');');
+					$(".calendar-area").find('.prev').attr('href', 'javascript:fnCalEventDay(' + nextYear + ', ' + nextMonth + ');');
+				}
+				function fnEventList(date, id) {
+					var html = "";
+					$.ajax({
+						url: gContextPath + "/gcn/monthEventListAjax?menuId=MENU02157&menuId1=MENU02014&menuId2=MENU02155&categoryId=03&startTime=" + date + "&endTime=" + date,
+						async: false,
+						success: function(data) {
+							if (data != null && data != "") {
+								$.each(data, function(i, item) {
+									if (item.GUBUN == "GCON") {
+										html += '<li style=line-height:36px><strong><a href="#">' + item.CATEGORYNAME + '</a></strong> <span class="desc">' + item.KNAME + '</span>';
+										html += '<a href="/board/view?menuId=' + item.MENUID + '&linkId=' + item.LINKID + '" class="more"><span>자세히보기</span></a></li>';
+									} else if (item.GUBUN == "GHUB") {
+										html += '<li style=line-height:36px><strong><a href="#">' + item.CATEGORYNAME + '</a></strong> <span class="desc">' + item.KNAME + '</span>';
+										html += '<a href="/board/view?menuId=' + item.MENUID + '&linkId=' + item.LINKID + '" class="more" target="_blank()"><span>자세히보기</span></a></li>';
+									} else if (item.GUBUN == "PUBLIC") {
+										/* Date Setting Start(181101 dhlee) */
+										Date.prototype.format = function(f) {
+											if (!this.valueOf()) return " ";
+											var weekKorName = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
+											var weekKorShortName = ["일", "월", "화", "수", "목", "금", "토"];
+											var weekEngName = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+											var weekEngShortName = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+											var d = this;
+											return f.replace(/(yyyy|yy|MM|dd|KS|KL|ES|EL|HH|hh|mm|ss|a\/p)/gi, function($1) {
+												switch ($1) {
+													case "yyyy":
+														return d.getFullYear(); // 년 (4자리)
+													case "yy":
+														return (d.getFullYear() % 1000).zf(2); // 년 (2자리)
+													case "MM":
+														return (d.getMonth() + 1).zf(2); // 월 (2자리)
+													case "dd":
+														return d.getDate().zf(2); // 일 (2자리)
+													case "KS":
+														return weekKorShortName[d.getDay()]; // 요일 (짧은 한글)
+													case "KL":
+														return weekKorName[d.getDay()]; // 요일 (긴 한글)
+													case "ES":
+														return weekEngShortName[d.getDay()]; // 요일 (짧은 영어)
+													case "EL":
+														return weekEngName[d.getDay()]; // 요일 (긴 영어)
+													case "HH":
+														return d.getHours().zf(2); // 시간 (24시간 기준, 2자리)
+													case "hh":
+														return ((h = d.getHours() % 12) ? h : 12).zf(2); // 시간 (12시간 기준, 2자리)
+													case "mm":
+														return d.getMinutes().zf(2); // 분 (2자리)
+													case "ss":
+														return d.getSeconds().zf(2); // 초 (2자리)
+													case "a/p":
+														return d.getHours() < 12 ? "오전" : "오후"; // 오전/오후 구분
+													default:
+														return $1;
+												}
+											});
+										};
+										String.prototype.string = function(len) {
+											var s = '',
+												i = 0;
+											while (i++ < len) {
+												s += this;
+											}
+											return s;
+										};
+										String.prototype.zf = function(len) {
+											return "0".string(len - this.length) + this;
+										};
+										Number.prototype.zf = function(len) {
+											return this.toString().zf(len);
+										};
+										/* Date Setting End(181101 dhlee) */
+										var sDate = new Date(item.CONTENTS4).format("yyyyMMdd");
+										var eDate = new Date(item.CONTENTS5).format("yyyyMMdd");
+										if (sDate == date) {
+											html += '<li style=line-height:36px><strong><a href="#">사업공고</a></strong> <span class="desc">' + item.KNAME + ' 시작일</span>';
+											html += '<a href="/board/view?menuId=' + item.MENUID + '&linkId=' + item.LINKID + '" class="more"><span>자세히보기</span></a></li>';
+										} else if (eDate == date) {
+											html += '<li style=line-height:36px><strong><a href="#">사업공고</a></strong> <span class="desc">' + item.KNAME + ' 종료일</span>';
+											html += '<a href="/board/view?menuId=' + item.MENUID + '&linkId=' + item.LINKID + '" class="more"><span>자세히보기</span></a></li>';
+										}
+									}
+								});
+							} else {
+								html += '<li><strong><a href="#">행사</a></strong> <span class="desc">해당일에 행사가 존재 하지 않습니다.</span>';
+								html += '<a href="/board?menuId=MENU02157" class="more"><span>자세히보기</span></a></li>';
+							}
+						}
+					});
+					$(".container .cal-list ul li a").removeClass('today');
+					$("#" + id).addClass('today');
+					$(".container .message .slide-list").empty();
+					$(".container .message .slide-list").html(html);
+				}
+				$(window).load(function() {
+					$('.banner-list').bxSlider({
+						auto: true,
+						speed: 1000,
+						pause: 3000,
+						maxSlides: 6,
+						moveSlides: 1,
+						slideWidth: 190,
+						slideMargin: 0,
+						mode: 'horizontal',
+						pager: false,
+						controls: false
+					});
+				});
+			</script>
+		</main>
+		<!-- ghub -->
+		<footer id="footer">
+			<div class="footer-address">
+				<div class="container">
+					<a href="#" class="footer-logo"><img src="/resources/images/gcn/footer_logo.png" alt="GCA" /></a>
+					<nav class="footer-nav">
+						<ul>
+							<li><a href="/menu?menuId=MENU02200">개인정보처리방침</a></li>
+							<li><a href="/menu?menuId=MENU02201">이메일무단수집거부</a></li>
+						</ul>
+					</nav>
+					<div class="address">
+						<address>(우) 14557 경기도 부천시 부천로198번길 18(춘의동) 춘의테크노파크Ⅱ 202동 9층</address>
+						<span>TEL.032)623-8000 </span>
+						<span>FAX. 032)623-8088</span>
+						<span>사업자등록번호.130-82-12609</span>
+					</div>
+					<div class="copyright">Copyrigh tⓒ 2018 <span>GYEONGGI CONTENT AGENCY</span> All rights reserved.</div>
+					<div class="relate-site">
+						<a href="#" class="title">관련사이트 바로가기 <i class="xi-caret-up-min"></i></a>
+						<dl class="list">
+							<dt>내부관련사이트</dt>
+							<dd><a target="_blank" title="새창으로열림" href="http://www.ggfc.or.kr">경기영상위원회</a>
+								<a target="_blank" title="새창으로열림" href="http://playx4.or.kr">PlayX4</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gconlab.or.kr">경기콘텐츠코리아랩</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gcon.or.kr/ghub">경기문화창조허브</a>
+								<a target="_blank" title="새창으로열림" href="http://www.indiestance.com">인디스땅스</a>
+								<a target="_blank" title="새창으로열림" href="http://bookbygg.gcon.or.kr">경기 동네 서점전</a>
+								<a target="_blank" title="새창으로열림" href="http://www.playx4.or.kr">플레이엑스포</a>
+								<a target="_blank" title="새창으로열림" href="http://bigforum.or.kr">빅포럼</a>
+								<a target="_blank" title="새창으로열림" href="http://www.bigdatacontest.kr">경기 빅데이터 콘테스트</a>
+								<a target="_blank" title="새창으로열림" href="https://www.gfsf.co.kr">경기 필름스쿨 페스티벌</a>
+								<a target="_blank" title="새창으로열림" href="http://bigfi.kr">경기도 빅데이터 플랫폼</a>
+								<a href="http://www.reuters.com/" target="_blank" title="새창으로 열림">REUTERS</a></dd>
+							<dt>외부관련사이트</dt>
+							<dd><a target="_blank" title="새창으로열림" href="http://www.gg.go.kr">세계속의 경기도</a>
+								<a target="_blank" title="새창으로열림" href="http://www.bucheon.go.kr/index.jsp">부천시청</a>
+								<a target="_blank" title="새창으로열림" href="http://www.mcst.go.kr">문화체육관광부</a>
+								<a target="_blank" title="새창으로열림" href="http://www.ggc.go.kr">경기도의회</a>
+								<a target="_blank" title="새창으로열림" href="http://www.kocca.kr/">한국콘텐츠진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.ggfc.or.kr/main/main.asp">경기영상위원회</a>
+								<a target="_blank" title="새창으로열림" href="http://www.snventure.net/vnet/fe/snv/main/ER_index.do">성남산업진흥재단</a>
+								<a target="_blank" title="새창으로열림" href="http://www.ani.seoul.kr">서울애니메이션센터</a>
+								<a target="_blank" title="새창으로열림" href="http://www.bizinfo.go.kr">기업마당</a>
+								<a target="_blank" title="새창으로열림" href="http://www.komacon.kr/komacon/">한국만화영상진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gitct.kr/main.php">광주정보문화산업진흥회</a>
+								<a target="_blank" title="새창으로열림" href="http://www.busanit.or.kr/">부산정보산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.cjculture.org/home/main.php">청주시문화산업진흥재단</a>
+								<a target="_blank" title="새창으로열림" href="http://gimc.or.kr/hb/portal">강원정보문화진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.kotra.or.kr/kh/main/KHMIUI010M.html">kotra</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gcon.or.kr/ghub/">경기문화창조허브</a>
+								<a target="_blank" title="새창으로열림" href="http://www.iuci.kr/">울산문화산업개발원</a>
+								<a target="_blank" title="새창으로열림" href="https://www.ibitp.or.kr/">인천경제산업 정보테크노파크</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gcaf.or.kr/main/main.jsp">경남문화예술진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.jcia.or.kr/">(재)전남정보문화산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="https://gcube.or.kr:1021/home/main.asp">경상북도문화콘텐츠진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.jccia.or.kr/">(재)전라북도문화콘텐츠산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="https://www.gipa.or.kr/main/main.php">고양지식정보산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://jica.kr/">전주정보문화산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.jejutp.or.kr/index.htm">제주테크노파크</a>
+								<a target="_blank" title="새창으로열림" href="https://www.dip.or.kr:446/open_content/main_page.php">(재)대구디지털산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.dicia.or.kr/">대전정보문화산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.ctia.kr/html/kr/index.html">충남문화산업진흥원</a>
+								<a target="_blank" title="새창으로열림" href="http://kostat.go.kr/office/giro/index.action">경인지방통계청</a>
+								<a target="_blank" title="새창으로열림" href="https://www.ckl.or.kr/">콘텐츠코리아랩</a>
+								<a target="_blank" title="새창으로열림" href="http://www.gamek.or.kr/">한국게임산업협회</a>
+								<a target="_blank" title="새창으로열림" href="https://ccei.creativekorea.or.kr">경제창조경제혁신센터</a>
+								<a target="_blank" title="새창으로열림" href="http://www.cccc.or.kr/">문화창조융합센터</a>
+								<a target="_blank" title="새창으로열림" href="https://www.nia.or.kr/">NIA 한국정보화진흥원</a>
+								<a target="_blank" title="새창으로열림" href="https://www.kcopa.or.kr/">한국저작권보호원</a>
+								<a target="_blank" title="새창으로열림" href="http://www.egbiz.or.kr/">이지비즈</a></dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript">
+			/* 채팅문의 */
+			$(function() {
+				//Start Channel Plugin
+				var userId = encodeURIComponent("") + "";
+				if ("".length > 0) {
+					window.channelPluginSettings = {
+						"plugin_id": "ba916772-1de5-4cb3-a9bd-317926698309",
+						"user": {
+							"id": "",
+							"name": "",
+							"mobileNumber": ""
+						}
+					};
+					(
+						function() {
+							var node = document.createElement('div');
+							node.id = 'ch-plugin';
+							document.body.appendChild(node);
+							var async_load = function() {
+								var s = document.createElement('script');
+								s.type = 'text/javascript';
+								s.async = true;
+								s.src = '//cdn.channel.io/plugin/ch-plugin-web.js';
+								s.charset = 'UTF-8';
+								var x = document.getElementsByTagName('script')[0];
+								x.parentNode.insertBefore(s, x);
+							};
+							if (window.attachEvent) {
+								window.attachEvent('onload', async_load);
+							} else {
+								window.addEventListener('load', async_load, false);
+							}
+						})();
+				} else {
+					window.channelPluginSettings = {
+						"plugin_id": "ba916772-1de5-4cb3-a9bd-317926698309"
+					};
+					(
+						function() {
+							var node = document.createElement('div');
+							node.id = 'ch-plugin';
+							document.body.appendChild(node);
+							var async_load = function() {
+								var s = document.createElement('script');
+								s.type = 'text/javascript';
+								s.async = true;
+								s.src = '//cdn.channel.io/plugin/ch-plugin-web.js';
+								s.charset = 'UTF-8';
+								var x = document.getElementsByTagName('script')[0];
+								x.parentNode.insertBefore(s, x);
+							};
+							if (window.attachEvent) {
+								window.attachEvent('onload', async_load);
+							} else {
+								window.addEventListener('load', async_load, false);
+							}
+						})();
+				}
+				//End Channel Plugin
+			});
+		</script>
+	</div>
+	<script>
+		$(function() {
+			$('.video').parent().click(function() {
+				$('#thumb-list').toggleClass('hide');
+				if ($(this).children(".video").get(0).paused) {
+					$(this).children(".video").get(0).play();
+					$(this).children(".playpause").fadeOut();
+				} else {
+					$(this).children(".video").get(0).pause();
+					$(this).children(".playpause").fadeIn();
+				}
+			});
+		});
+	</script>
+</body>
+</html>
